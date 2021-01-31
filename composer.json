@@ -1,0 +1,22 @@
+{
+  "name": "felixmind/packagist-test",
+  "type": "library",
+  "description": "A simple package for testing packagist service.",
+  "homepage": "https://github.com/felixmind/packagist-test",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Viacheslav Shepelev",
+      "email": "felixind@outlook.com",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "php": ">=7.4"
+  },
+  "autoload": {
+    "psr-0": {
+      "Monolog": "src"
+    }
+  }
+}
