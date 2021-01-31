@@ -11,12 +11,13 @@
       "role": "Developer"
     }
   ],
+  "minimum-stability": "dev",
   "require": {
     "php": ">=7.4"
   },
   "autoload": {
-    "psr-0": {
-      "Monolog": "src"
+    "psr-4": {
+      "FelixMind\\": "src/"
     }
   }
 }
